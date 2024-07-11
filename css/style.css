@@ -16,6 +16,16 @@ footer{
     height: 100px;
     background-color: #000;
 }
+
+h1{
+    font-size: 74px;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+img{
+    max-width: 100%;
+}
 /* Utils */
 
 .container-big{
@@ -36,44 +46,98 @@ footer{
     background-color: #B4D0E7;
 }
 
-.bgc-blue{
-    background-color: #0061FF;
-}
-
 .space{
     gap: 20px;
+}
+
+.btn{
+    background-color: #0061FF;
+    color: #fff; 
+    padding: 5px 10px;
+    text-decoration: none;
 }
 
 /*!header*/
 
 /* navbar */
 .navbar{
+    background-color: #fff;
     height: 100px;
-    border: 2px solid black;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 5px 8px #888888;
 }
+
+.navbar a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #000;
+    
+}
+.navbar .btn{
+    color: #fff;
+    
+
+}
+
+.left-navbar, .right-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 20px;
+}
+ 
 
 /* intro */
 
 .introduction{
-    height: 600px;
-    border: 2px dotted red;
+    height: 800px;
+    padding-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .intro-content{
-    border: 2px dotted black;
-    height: 400px;
-    flex-grow: 1;
+    max-width: 100%;
 }
+
+.jumbo{
+    float: right;
+    max-width: 70%;
+}
+
+.intro-content p:first-of-type{
+    margin-bottom: 50px;
+}
+
+.intro-content p:last-of-type{
+    margin-top: 50px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-top: 60px;
+}
+
 
 /* !Business plan */
 
 .titolo{
+
     height: 100px;
     border: 2px dashed rgb(0, 132, 255);
-    margin: 20px 0;
+    margin: 60px 0;
 }
 
 .row{
