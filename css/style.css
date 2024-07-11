@@ -40,6 +40,10 @@ footer{
     background-color: #0061FF;
 }
 
+.space{
+    gap: 20px;
+}
+
 /*!header*/
 
 /* navbar */
@@ -75,7 +79,6 @@ footer{
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .col{
@@ -111,12 +114,46 @@ footer{
     border: 2px dashed rgb(221, 15, 15);
 }
 
-/* !paragrafo */
+/* ! paragrafo */
 
 .paragraph{
     height: 100px;
     border: 2px solid black;
-    margin: 50px 0;
+    margin: 50px auto;
+}
+
+/* ! members */
+
+.members{
+    display: flex;
+}
+
+.members-sec-left, .members-sec-center, .members-sec-right{
+    /*max-*/width: calc(100% / 3);
+    height: 500px;
+    margin: 100px 0;
+    border: 2px solid violet;
+}
+
+
+.col-members{
+    flex-basis: calc(100% / 2); 
+    
+}
+
+.card-members{
+    flex-basis: 100%; 
+    border: 2px solid rgb(128, 0, 0);
+    height: 250px;
+}
+
+.members-sec-center{
+    padding: 50px;
+}
+
+.members-center-content{
+    height: 300px;
+    border: 2px dashed black;
 }
 
 
