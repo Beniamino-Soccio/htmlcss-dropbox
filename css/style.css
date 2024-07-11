@@ -156,4 +156,36 @@ footer{
     border: 2px dashed black;
 }
 
+/* ! free trial */
+
+.free-trial{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-e-bottone{
+    height: 200px;
+    width: 100%;
+    border: 2px solid red;
+
+}
+
+/* !FAQ */
+
+.faq{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.questions{
+    height: 500px;
+    width: 100%;
+    border: 2px dotted rgb(0, 255, 13);
+
+}
 
