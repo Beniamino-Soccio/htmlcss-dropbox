@@ -76,6 +76,11 @@ h3{
 .btn-big{
     padding: 10px 30px;
 }
+.btn-white{
+    background-color: #fff;
+    color: #000; 
+    border: 1px solid #000;
+}
 
 /*!header*/
 
@@ -254,20 +259,32 @@ h3{
 
 .find-partner-section{
     display: flex;
-    height: 500px;
-    border: 2px solid black;
-    margin-top: 100px;
+    margin: 150px 0;
 }
 
 .left-sec-partner{
-    /*max-*/width: 60%;
-    border: 2px dashed rgb(8, 255, 90);
+    max-width: 60%;
+    
 }
 
 .right-sec-partner{
-    flex-grow: 1;
-    border: 2px dashed rgb(221, 15, 15);
+    flex-basis: 40%;
+    padding: 40px;
 }
+
+.right-sec-partner *{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.right-sec-partner h2{
+    font-size: 20px;
+}
+.right-sec-partner p{
+    font-size: 15px;
+}
+
+
 
 /* ! paragrafo */
 
