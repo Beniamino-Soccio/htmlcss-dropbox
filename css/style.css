@@ -376,9 +376,6 @@ h3{
     margin-top: 10px;
 }
 
-
-
-
 /* !FAQ */
 
 .faq{
@@ -386,13 +383,29 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
-.questions{
-    height: 500px;
+.faq-content{
     width: 100%;
-    border: 2px dotted rgb(0, 255, 13);
-
 }
+
+.question *{
+padding: 40px 0;
+font-weight: bold;
+}
+
+.question{
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;    
+}
+
+.faq-content div:first-of-type{
+    border-top: 1px solid grey;
+    margin-top: 40px
+}
+
+
 
