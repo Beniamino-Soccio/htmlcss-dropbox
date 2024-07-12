@@ -225,23 +225,29 @@ h3{
 .name-plan > *, .info-plan  p, .link-plan > *, .details-plan p{
     margin: 15px 0;
 }
-
+.name-plan :nth-child(2){
+    font-weight: bold;
+}
 .name-plan :last-child{
     color: grey;
 }
 
-.sec-team{
+.top-team-card{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.left-team-card{
+.bottom-team-card{
     max-width: 70%;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.bottom-team-card :first-child{
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
-.right-team-card{
-    max-width: 30%;
-    text-align: center;
-}
 
 
 /* ! sec. find partner */
