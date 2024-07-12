@@ -13,11 +13,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-footer{
-    height: 100px;
-    background-color: #000;
-}
-
 img{
     max-width: 100%;
     display: block;
@@ -407,5 +402,43 @@ font-weight: bold;
     margin-top: 40px
 }
 
+/* ! footer */
+
+footer{
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    padding-top: 100px;
+}
+
+.link-section{
+    flex-basis: calc(100%/5);
+    height: 300px;
+}
+
+.link-section h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.languages{
+    display: inline-block;
+    color: gray;
+    padding: 50px 0;
+    border-top: 1px solid grey;
+    font-size: 14px;
+}
 
 
