@@ -357,19 +357,27 @@ h3{
 
 /* ! free trial */
 
-.free-trial{
-    height: 500px;
+.free-trial-content{
+    padding: 100px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.p-e-bottone{
-    height: 200px;
-    width: 100%;
-    border: 2px solid red;
-
+.free-trial-content p{
+    max-width: 65%;
+    font-size: 42px;
+    color: #61082B;
+    font-weight: bold;
 }
+.free-trial-content a{
+    display: inline-block;
+    border-color: transparent;
+    margin-top: 10px;
+}
+
+
+
 
 /* !FAQ */
 
