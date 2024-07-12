@@ -20,6 +20,7 @@ footer{
 
 img{
     max-width: 100%;
+    display: block;
 }
 
 h1{
@@ -33,8 +34,9 @@ h2{
 }
 
 h3{
-    margin-bottom: 10px;
+    font-size: 26px;
 }
+
 
 /* Utils */
 
@@ -60,11 +62,19 @@ h3{
     gap: 20px;
 }
 
+.space-big{
+    gap: 40px;
+}
+
+
 .btn{
     background-color: #0061FF;
     color: #fff; 
     padding: 5px 10px;
     text-decoration: none;
+}
+.btn-big{
+    padding: 10px 30px;
 }
 
 /*!header*/
@@ -87,7 +97,6 @@ h3{
 
 .navbar a{
     text-decoration: none;
-    margin: 0 20px;
     color: #000;
     
 }
@@ -111,43 +120,58 @@ h3{
 /* intro */
 
 .introduction{
-    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    height: 765px;
     padding-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
+.intro{
+    display: flex;
+}
 .intro-content{
     max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.jumbo{
-    float: right;
+.intro-left{
+    max-width: 30%;
+}
+
+.intro-right{
     max-width: 70%;
 }
-
-.intro-content p:first-of-type{
-    margin-bottom: 50px;
+.intro-left a{
+    display: inline-block;
 }
-
-.intro-content p:last-of-type{
-    margin-top: 50px;
+.intro-left *{
+    margin-bottom: 40px;
 }
 
 .fa-arrow-down{
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000;
 }
 
 
 /* !Business plan */
 
-.titolo{
+.title{
     height: 100px;
-    margin-top: 150px;
     margin-bottom: 60px;
 
+}
+.title span{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 40px;
 }
 
 .row{
@@ -180,17 +204,43 @@ h3{
 .link-plan{
     border-bottom: 1px solid #888;
 }
-
-.name-plan, .info-plan, .link-plan, .details-plan{
-    padding: 15px;
+.link-plan a:first-child{
+    display: block;
+    text-align: center
+}
+.link-plan a:last-child{
+    color: blue;
+    display: inline-block;
 }
 
-.name-plan, .info-plan, .link-plan, .details-plan{
+.target-content{
+    padding: 20px 30px;
+    font-size: 14px;
+}
+
+.target-content > *{
+    margin-bottom: 50px;
+}
+
+.name-plan > *, .info-plan  p, .link-plan > *, .details-plan p{
     margin: 15px 0;
 }
 
-.nameplan  > *{
-    margin: 10px 0;
+.name-plan :last-child{
+    color: grey;
+}
+
+.sec-team{
+    display: flex;
+}
+
+.left-team-card{
+    max-width: 70%;
+}
+
+.right-team-card{
+    max-width: 30%;
+    text-align: center;
 }
 
 
