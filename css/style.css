@@ -296,6 +296,9 @@ h3{
     font-weight: bold;
 }
 
+.fa-check{
+    color: #0C63FF;
+}
 
 
 
@@ -327,6 +330,10 @@ h3{
 }
 .right-sec-partner p{
     font-size: 15px;
+}
+
+.right-sec-partner a{
+    padding: 10px 15px;
 }
 
 /* !Dropbox business operation section */
