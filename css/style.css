@@ -532,7 +532,7 @@ h3{
     width: 100%;
 }
 
-.question *{
+.question p:first-of-type, .question i{
 padding: 40px 0;
 font-weight: bold;
 }
@@ -541,7 +541,8 @@ font-weight: bold;
     border-bottom: 1px solid grey;
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;    
+    padding-right: 30px; 
+    flex-wrap: wrap;   
 }
 
 .faq-content div:first-of-type{
@@ -597,6 +598,18 @@ footer a{
     background-color: rgba(211, 211, 211, 0.7);
 }
 
+.question p:last-of-type{
+    padding-top: 0;
+    padding-bottom: 40px;
+    display: none;
+}
 
+.question:hover p:last-of-type{
+    display: block;
+}
+
+.question:hover i{
+    rotate: 180deg;
+}
 
 
