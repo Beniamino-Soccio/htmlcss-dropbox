@@ -113,7 +113,7 @@ h3{
 /* ! navbar */
 .navbar{
     background-color: #fff;
-    height: 100px;
+    height: 80px;
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -128,13 +128,11 @@ h3{
 
 .navbar a{
     text-decoration: none;
-    color: #000;
-    
+    color: #000;   
 }
+
 .navbar .btn{
     color: #fff;
-    
-
 }
 
 .left-navbar, .right-navbar{
@@ -181,7 +179,7 @@ h3{
     display: inline-block;
 }
 .intro-left *{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .fa-arrow-down{
@@ -609,7 +607,15 @@ footer a{
 }
 
 .question:hover i{
-    rotate: 180deg;
+   /* rotate: 180deg; (il validator me lo dava errato)*/
+    transform: rotate(180deg);
 }
 
+.borded-link{
+    line-height: 80px;
+    padding: 0 20px;
+}
 
+.borded-link:hover{
+    border-bottom: 3px solid black ;
+}
