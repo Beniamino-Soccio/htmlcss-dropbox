@@ -499,7 +499,7 @@ h3{
     align-items: flex-start;
 }
 
-.free-trial-content p{
+.free-trial-content h2{
     max-width: 65%;
     font-size: 42px;
     color: #61082B;
