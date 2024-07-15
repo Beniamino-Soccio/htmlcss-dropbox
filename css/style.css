@@ -88,17 +88,20 @@ h3{
 
 
 .btn{
-    background-color: #0061FF;
+    background-color: rgb(0, 97, 255);
     color: #fff; 
     padding: 10px 20px;
     text-decoration: none;
 }
+
 .btn-small{
     padding: 5px 15px;
 }
+
 .btn-big{
     padding: 10px 30px;
 }
+
 .btn-white{
     background-color: #fff;
     color: #000; 
@@ -389,7 +392,7 @@ h3{
     margin-top: 50px;
 }
 
-/* ! members 
+/*  members  (css di come l'avevo svolto prima della "correzione")
 
 .members{
     display: flex;
@@ -439,7 +442,11 @@ h3{
 }
 */
 
-/*? members*/
+/*! members*/
+
+#members{
+    margin-top: 150px;
+}
 
 .row-members{
     display: flex;
@@ -580,5 +587,16 @@ footer a{
     border-top: 1px solid grey;
     font-size: 14px;
 }
+
+/* BONUS */
+.btn:hover{
+    background-color: rgba(0, 97, 255, 0.7);
+}
+
+.btn-white:hover{
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+
 
 
