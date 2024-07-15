@@ -90,8 +90,11 @@ h3{
 .btn{
     background-color: #0061FF;
     color: #fff; 
-    padding: 5px 10px;
+    padding: 10px 20px;
     text-decoration: none;
+}
+.btn-small{
+    padding: 5px 15px;
 }
 .btn-big{
     padding: 10px 30px;
@@ -249,8 +252,9 @@ h3{
     text-align: center;
 }
 
-.link-plan{
-    border-bottom: 1px solid #888;
+.link-plan span{
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
 }
 .link-plan a:first-child{
     display: block;
@@ -270,14 +274,26 @@ h3{
     margin-bottom: 50px;
 }
 
-.name-plan > *, .info-plan  p, .link-plan > *, .details-plan p{
+.name-plan > *, .link-plan > *, .details-plan > *{
     margin: 15px 0;
 }
+
+
+
 .name-plan :nth-child(2){
     font-weight: bold;
+    margin-bottom: 0;
 }
 .name-plan :last-child{
     color: grey;
+    margin-top: 10px;
+}
+
+.info-list li{
+    display: flex;
+    align-items: baseline;
+    gap: 5px; 
+    margin-bottom: 20px;
 }
 
 .top-team-card{
@@ -373,14 +389,15 @@ h3{
     margin-top: 50px;
 }
 
-/* ! members */
+/* ! members 
 
 .members{
     display: flex;
 }
 
 .members-sec-left, .members-sec-center, .members-sec-right{
-    /*max-*/width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     margin-top: 100px;
 }
 
@@ -420,6 +437,58 @@ h3{
 .members-center-content p{
     margin-bottom: 50px;
 }
+*/
+
+/*? members*/
+
+.row-members{
+    display: flex;
+}
+
+.col-left, .col-center, .col-right{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-members{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid transparent;
+}
+
+.col-members img{
+    width: 55%;
+    filter: invert(1);
+}
+
+.card-members:hover{
+    border: 15px solid rgba(255, 255, 255, 0.5);
+}
+
+.col-members.bgc-lightgray img{
+    filter: invert(0);
+    max-width: 45%;
+    margin-bottom: 60px;
+}
+
+.col-center{
+    padding: 50px;
+}
+
+.col-members.bgc-lightgray p{
+    margin-bottom: 50px;
+}
+
+
 
 /* ! free trial */
 
